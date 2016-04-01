@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle_t"
+        android:hint="条码"
+        android:textSize="12sp"
+        android:inputType="number"
+        android:ems="15"
+        android:background="@drawable/et_shape"
+        />
+    <EditText 
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:enabled="false"
+        android:id="@+id/txtContent_t"
+        android:editable="false"
+        android:layout_below="@id/txtTitle_t"
+        android:hint="内容"
+        android:gravity="left|top"
+        android:textSize="12sp"
+        android:background="@drawable/et_shape"
+        />
+    
+   
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave_t"
+        android:text="保存"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bt_shape"
+        />
+    
+    </RelativeLayout>
+
